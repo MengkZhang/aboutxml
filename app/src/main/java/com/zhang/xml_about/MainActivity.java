@@ -13,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    private void jump(Class clazz) {
+        Intent intent = new Intent(this, clazz);
+        startActivity(intent);
+    }
+
     public void createXMLOne(View view) {
         jump(CreateXMLOneActivity.class);
     }
@@ -21,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
         jump(CreateXMLTwoActivity.class);
     }
 
-    private void jump(Class clazz) {
-        Intent intent = new Intent(this, clazz);
-        startActivity(intent);
+    public void parserXMLTwo(View view) {
+        jump(XmlParserActivity.class);
     }
 }
