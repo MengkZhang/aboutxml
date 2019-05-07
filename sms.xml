@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smss>
+
+    <sms>
+        <name>Mengk</name>
+        <city>成都<city/>
+        <age>26岁</age>
+    </sms>
+
+    <sms>
+        <name>Mengk2</name>
+        <city>成都2<city/>
+        <age>26岁2</age>
+    </sms>
+
+</smss>
