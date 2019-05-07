@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
         jump(CreateXMLOneActivity.class);
     }
 
+    public void createXMLTwo(View view) {
+        jump(CreateXMLTwoActivity.class);
+    }
+
     private void jump(Class clazz) {
         Intent intent = new Intent(this, clazz);
         startActivity(intent);

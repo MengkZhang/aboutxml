@@ -7,10 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="生成XML的第一种方式"
-        android:onClick="createXMLOne"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="createXMLOne"
+            android:text="生成XML的第一种方式"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="createXMLTwo"
+            android:text="生成XML的第二种方式"/>
+
+    </LinearLayout>
+
 
 </ScrollView>
